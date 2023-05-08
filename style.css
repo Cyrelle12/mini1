@@ -87,7 +87,7 @@
     color: rgb(255, 255, 255);
 }
 .nav-item:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(220, 111, 211);
     background-color: transparent;
     border-radius: 5px;
 }
