@@ -23,43 +23,6 @@
     width: 60px;
 }
 
-/*rating*/
-
-.rating {
-    display: inline-block;
-    font-size: 0;
-    position: relative;
-    color: rgb(220, 111, 211);
-}
-.rating label {
-    margin-top: 2px;
-    font-size: 49px;
-    cursor: pointer;
-}
-.rating label::before{
-    content: "\2606";
-    display: inline-block;
-    transition: 0.2s;
-}
-.rating label:hover span{
-    opacity: 1;
-    transform: none;
-    letter-spacing: 0;
-}
-.rating input:checked ~ label::before{
-    content: "\2605";
-    color: orange;
-    filter:drop-shadow(0 0 4px);
-    transform: rotate(.2turn);
-    transition-delay: calc(0.1 * attr(data-idx integer));
-}
-.star {
-    font-size: 20px;
-}
-.checked {
-    color: rgb(220, 111, 211);
-}
-
 /*Navbar*/
 
 .d-block {
